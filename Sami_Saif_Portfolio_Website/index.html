@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sami Saif — Professional Video Editor based in Islamabad. Cinematic edits, explainer videos, reels, podcasts, and motion graphics.">
+    <title>Sami Saif — Video Editor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/jpeg" href="icon.jpeg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">SAMI SAIF</a>
+            <div class="nav-links">
+                <a href="#hero" class="nav-link active">HOME</a>
+                <a href="#portfolio" class="nav-link">WORK</a>
+                <a href="#reviews" class="nav-link">ABOUT</a>
+                <a href="#contact" class="nav-link">CONTACT</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-section">
+        <canvas id="topoCanvas" class="topo-canvas"></canvas>
+        <div class="hero-container">
+            <div class="hero-content animate-in">
+                <p class="hero-label">Hi, I'm</p>
+                <h1 class="hero-name">SAMI SAIF</h1>
+                <p class="hero-title">VIDEO EDITOR</p>
+                <p class="hero-description">I'm a 21-year-old video editor based in Islamabad. I create cinematic and engaging videos that grab attention and actually make people feel something.</p>
+                <a href="#portfolio" class="cta-button">
+                    VIEW MY WORK
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+            </div>
+            <div class="hero-image-wrapper animate-in-right">
+                <div class="hero-image-glow"></div>
+                <div class="hero-orbit hero-orbit-1"></div>
+                <div class="hero-orbit hero-orbit-2"></div>
+                <div class="hero-orbit hero-orbit-3"></div>
+                <div class="hero-particle hero-particle-1"></div>
+                <div class="hero-particle hero-particle-2"></div>
+                <div class="hero-particle hero-particle-3"></div>
+                <div class="hero-particle hero-particle-4"></div>
+                <div class="hero-particle hero-particle-5"></div>
+                <img src="My photo.jpeg" alt="Sami Saif - Video Editor" class="hero-image">
+                <div class="hero-image-shimmer"></div>
+                <div class="hero-image-border-glow"></div>
+            </div>
+        </div>
+        <div class="scroll-indicator animate-in-delay">
+            <span>SCROLL DOWN</span>
+            <svg width="16" height="24" viewBox="0 0 16 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 4v16M2 14l6 6 6-6"/></svg>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="section-container">
+            <div class="section-header reveal">
+                <span class="section-label">PORTFOLIO</span>
+                <h2 class="section-title">MY WORK</h2>
+                <p class="section-subtitle">A collection of my recent work across different styles and formats.</p>
+            </div>
+            <div class="portfolio-layout">
+                <div class="portfolio-tabs reveal">
+                    <button class="tab-item active" data-category="explainer">
+                        <span class="tab-number">01</span>
+                        <div class="tab-info">
+                            <h3 class="tab-title">EXPLAINER VIDEOS</h3>
+                            <p class="tab-desc">Turning complex ideas into simple, clean visuals.</p>
+                        </div>
+                    </button>
+                    <button class="tab-item" data-category="reels">
+                        <span class="tab-number">02</span>
+                        <div class="tab-info">
+                            <h3 class="tab-title">REELS</h3>
+                            <p class="tab-desc">Fast-paced edits made to grab attention instantly.</p>
+                        </div>
+                    </button>
+                    <button class="tab-item" data-category="podcasts">
+                        <span class="tab-number">03</span>
+                        <div class="tab-info">
+                            <h3 class="tab-title">PODCASTS</h3>
+                            <p class="tab-desc">Clean and smooth edits that keep long content engaging.</p>
+                        </div>
+                    </button>
+                    <button class="tab-item" data-category="motion">
+                        <span class="tab-number">04</span>
+                        <div class="tab-info">
+                            <h3 class="tab-title">MOTION GRAPHICS / AD CREATIVES</h3>
+                            <p class="tab-desc">Creative visuals designed to stand out and convert.</p>
+                        </div>
+                    </button>
+                </div>
+                <div class="portfolio-grid reveal-right">
+                    <!-- Explainer Videos -->
+                    <div class="video-grid active" data-grid="explainer">
+                        <div class="video-card"><video src="Explainer videos/EX 1.mp4" muted preload="metadata"></video><div class="card-overlay"><div class="play-btn"><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21"/></svg></div></div></div>
+                        <div class="video-card"><video src="Explainer videos/EX2.mp4" muted preload="metadata"></video><div class="card-overlay"><div class="play-btn"><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21"/></svg></div></div></div>
+                        <div class="video-card"><video src="Explainer videos/EX 3.mp4" muted preload="metadata"></video><div class="card-overlay"><div class="play-btn"><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21"/></svg></div></div></div>
+                        <div class="video-card"><video src="Explainer videos/ex4.mp4" muted preload="metadata"></video><div class="card-overlay"><div class="play-btn"><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21"/></svg></div></div></div>
+                    </div>
+                    <!-- Reels -->
+                    <div class="video-grid" data-grid="reels">
+                        <div class="video-card"><video src="REELS/pf2.mp4" muted preload="metadata"></video><div class="card-overlay"><div class="play-btn"><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21"/></svg></div></div></div>
+                        <div class="video-card"><video src="REELS/pf4.mp4" muted preload="metadata"></video><div class="card-overlay"><div class="play-btn"><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21"/></svg></div></div></div>
+                        <div class="video-card"><video src="REELS/pf7.mp4" muted preload="metadata"></video><div class="card-overlay"><div class="play-btn"><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21"/></svg></div></div></div>
+                        <div class="video-card"><video src="REELS/pf8.mp4" muted preload="metadata"></video><div class="card-overlay"><div class="play-btn"><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21"/></svg></div></div></div>
+                        <div class="video-card"><video src="REELS/FB_VID_8524364397615647730.mp4" muted preload="metadata"></video><div class="card-overlay"><div class="play-btn"><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21"/></svg></div></div></div>
+                        <div class="video-card"><video src="REELS/ssstik.io_@samis4if_1776969345759.mp4" muted preload="metadata"></video><div class="card-overlay"><div class="play-btn"><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21"/></svg></div></div></div>
+                    </div>
+                    <!-- Podcasts -->
+                    <div class="video-grid" data-grid="podcasts">
+                        <div class="video-card"><video src="PODCASTS/PD 1.mp4" muted preload="metadata"></video><div class="card-overlay"><div class="play-btn"><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21"/></svg></div></div></div>
+                        <div class="video-card"><video src="PODCASTS/pd2.mp4" muted preload="metadata"></video><div class="card-overlay"><div class="play-btn"><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21"/></svg></div></div></div>
+                    </div>
+                    <!-- Motion Graphics -->
+                    <div class="video-grid" data-grid="motion">
+                        <div class="video-card"><video src="MOTION GRAPHICS - AD CREATIVES/pf1.mp4" muted preload="metadata"></video><div class="card-overlay"><div class="play-btn"><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21"/></svg></div></div></div>
+                        <div class="video-card"><video src="MOTION GRAPHICS - AD CREATIVES/pf3.mp4" muted preload="metadata"></video><div class="card-overlay"><div class="play-btn"><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21"/></svg></div></div></div>
+                        <div class="video-card"><video src="MOTION GRAPHICS - AD CREATIVES/pf5.mp4" muted preload="metadata"></video><div class="card-overlay"><div class="play-btn"><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21"/></svg></div></div></div>
+                        <div class="video-card"><video src="MOTION GRAPHICS - AD CREATIVES/pf6.mp4" muted preload="metadata"></video><div class="card-overlay"><div class="play-btn"><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21"/></svg></div></div></div>
+                        <div class="video-card"><video src="MOTION GRAPHICS - AD CREATIVES/FB_VID_2940473812486549780.mp4" muted preload="metadata"></video><div class="card-overlay"><div class="play-btn"><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21"/></svg></div></div></div>
+                        <div class="video-card"><video src="MOTION GRAPHICS - AD CREATIVES/ssstik.io_@samis4if_1776969369918.mp4" muted preload="metadata"></video><div class="card-overlay"><div class="play-btn"><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21"/></svg></div></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-footer reveal">
+                <a href="#portfolio" class="cta-button secondary" id="viewAllBtn">
+                    VIEW ALL WORK
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- REVIEWS SECTION -->
+    <section id="reviews" class="reviews-section">
+        <div class="section-container">
+            <div class="section-header reveal">
+                <span class="section-label">CLIENT REVIEWS</span>
+                <h2 class="section-title">WHAT CLIENTS SAY</h2>
+            </div>
+            <div class="reviews-grid reveal">
+                <div class="review-card">
+                    <div class="review-avatar">AT</div>
+                    <h4 class="review-name">ADAM THOMPSON</h4>
+                    <p class="review-location">BERRINGHAM, UK</p>
+                    <p class="review-text">"Great work, very professional and quick delivery. Exceeded my expectations on every project."</p>
+                    <div class="review-stars">★★★★★</div>
+                </div>
+                <div class="review-card">
+                    <div class="review-avatar">DK</div>
+                    <h4 class="review-name">DENIJEL KUZMA</h4>
+                    <p class="review-location">SERBIA</p>
+                    <p class="review-text">"Highly recommended, smooth communication and top quality edits. Will definitely work together again."</p>
+                    <div class="review-stars">★★★★★</div>
+                </div>
+                <div class="review-card">
+                    <div class="review-avatar">NA</div>
+                    <h4 class="review-name">NABEEL AKHTAR</h4>
+                    <p class="review-location">ISLAMABAD, PAKISTAN</p>
+                    <p class="review-text">"Creative, reliable, and always delivers beyond expectations. Truly unique to the table."</p>
+                    <div class="review-stars">★★★★★</div>
+                </div>
+                <div class="review-card featured">
+                    <div class="review-avatar agency">EO</div>
+                    <h4 class="review-name">EMPIRE OFFSHORE</h4>
+                    <p class="review-location">AGENCY — ISLAMABAD, PAKISTAN</p>
+                    <p class="review-text">"Sami consistently delivers high-quality work with great attention to detail. Reliable, creative, and easy to work with."</p>
+                    <div class="review-stars">★★★★★</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact-section">
+        <div class="section-container">
+            <div class="section-header reveal">
+                <span class="section-label">LET'S CONNECT</span>
+                <h2 class="section-title">GET IN TOUCH</h2>
+            </div>
+            <div class="contact-layout contact-layout-centered">
+                <div class="contact-right reveal">
+                    <p class="contact-tagline">Got a project? Let's make something fire together.</p>
+                    <div class="contact-info-card">
+                        <div class="contact-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            <a href="mailto:michaelclarkeonbusiness@gmail.com">michaelclarkeonbusiness@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+                            <a href="https://instagram.com/refinedbysami" target="_blank">refinedbysami</a>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                            <a href="https://facebook.com/samis4if" target="_blank">Sami Saif</a>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.8.1V9.01a6.37 6.37 0 0 0-.8-.05A6.34 6.34 0 0 0 3.16 15.3a6.34 6.34 0 0 0 6.33 6.34 6.34 6.34 0 0 0 6.34-6.34V8.65a8.35 8.35 0 0 0 4.76 1.49V6.69z"/></svg>
+                            <a href="https://tiktok.com/@samis4if" target="_blank">samis4if</a>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            <span>Islamabad, Pakistan</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2025 SAMI SAIF. ALL RIGHTS RESERVED.</p>
+            <div class="footer-socials">
+                <a href="https://instagram.com/refinedbysami" target="_blank" aria-label="Instagram">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+                </a>
+                <a href="https://facebook.com/samis4if" target="_blank" aria-label="Facebook">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                </a>
+                <a href="https://tiktok.com/@samis4if" target="_blank" aria-label="TikTok">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.8.1V9.01a6.37 6.37 0 0 0-.8-.05A6.34 6.34 0 0 0 3.16 15.3a6.34 6.34 0 0 0 6.33 6.34 6.34 6.34 0 0 0 6.34-6.34V8.65a8.35 8.35 0 0 0 4.76 1.49V6.69z"/></svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- VIDEO MODAL -->
+    <div id="videoModal" class="video-modal">
+        <button class="modal-close" id="modalClose">&times;</button>
+        <div class="modal-video-wrapper" id="modalVideoWrapper">
+            <video id="modalVideo" controls></video>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
