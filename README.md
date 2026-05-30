@@ -39,33 +39,6 @@ The portfolio is designed with a clean and modern interface, smooth navigation, 
     └── Contact.png
 ```
 
-## Setup and Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/sami-saif-portfolio.git
-cd sami-saif-portfolio
-```
-
-Open the website locally:
-
-```bash
-index.htm
-```
-
-Or run a local server:
-
-```bash
-python -m http.server
-```
-
-Then visit:
-
-```text
-http://localhost:8000
-```
-
 ## Live Demo
 
 https://samisaif.netlify.app/
