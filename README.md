@@ -8,11 +8,11 @@ The portfolio is designed with a clean and modern interface, smooth navigation, 
 
 | Home | Work |
 | :---: | :---: |
-| <img src="Screenshots/Home.png" width="400"> | <img src="Screenshots/Work.png" width="400"> |
+| <img src="Sami_Saif_Portfolio_Website/Screenshots/Home.png" width="400"> | <img src="Sami_Saif_Portfolio_Website/Screenshots/Work.png" width="400"> |
 
 | Reviews | Contact |
 | :---: | :---: |
-| <img src="Screenshots/Reviews.png" width="400"> | <img src="Screenshots/Contact.png" width="400"> |
+| <img src="Sami_Saif_Portfolio_Website/Screenshots/Reviews.png" width="400"> | <img src="Sami_Saif_Portfolio_Website/Screenshots/Contact.png" width="400"> |
 
 ## Features
 
